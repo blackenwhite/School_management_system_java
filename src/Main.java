@@ -7,5 +7,14 @@ public class Main {
         Student tamasha=new Student(1, "Tamasha",4);
         Student rakshit=new Student(2, "Rakshit Vasudev", 12);
         Student rabbi=new Student(3, "Rabbi",2);
+
+        School dps=new School();
+        dps.addStudent(tamasha);
+        dps.addStudent(rakshit);
+        dps.addStudent(rabbi);
+
+        dps.addTeacher(lizzy);
+        dps.addTeacher(mellisa);
+        dps.addTeacher(vanderthorn);
     }
 }
