@@ -33,10 +33,12 @@ public class School {
 
     public void addTeacher(Teacher teacher){
         teachers.add(teacher);
+        System.out.println(teacher.getName() + " added. ");
     }
 
     public void addStudent(Student s){
         students.add(s);
+        System.out.println("Student "+ s.getName()+ " added.");
     }
 
     public void updateTotalMoneyEarned(int moneyEarned){
