@@ -16,5 +16,12 @@ public class Main {
         dps.addTeacher(lizzy);
         dps.addTeacher(mellisa);
         dps.addTeacher(vanderthorn);
+
+        //System.out.println(dps.getTotalMoneyEarned());
+
+        tamasha.payFees(200);
+        dps.updateTotalMoneyEarned(200);
+
+        System.out.println(dps.getTotalMoneyEarned());
     }
 }
